@@ -1,12 +1,18 @@
 .border{
   border: 1px solid black !important;
 }
+.backgroundImg{
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 50vh
+}
 .hero{
-  background-image: url();
+  background-image: url(../assets/hero.jpg);
+  
 }
 .services{
-  background-image: url();
+  background-image: url(../assets/laptop.jpg);
 }
 .contactUs{
-  background-image: url();
+  background-image: url(../assets/tool.jpg);
 }
