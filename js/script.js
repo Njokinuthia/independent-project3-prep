@@ -34,8 +34,16 @@ $(document).ready(function(){
 
 // tohover over portforlio
 
-$(document).ready(function(){
-  $(".hover").hover(function(){
-    $(".fade").fadeIn();
-  })
-})
+// $(document).ready(function(){
+//   $(".hover-fadeout").hover(function(){
+//     $(".hover-fadeout").fadeTo("slow",0.5);
+//   });
+// });
+
+$(document).ready(function (){
+  $(".fadeout").hover(function () {
+    $(".fadeout").fadeTo("fast",0.5);
+    $(".fadein").toggle();
+  });
+});
+
