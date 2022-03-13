@@ -42,8 +42,8 @@ $(document).ready(function(){
 
 $(document).ready(function (){
   $(".fadeout").hover(function () {
-    $(".fadeout").fadeTo("fast",0.5);
-    $(".fadein").toggle();
+    $(".fadeout").fadeTo("fast", 0.5);    
+    $(".fadein").toggle();   
   });
 });
 
