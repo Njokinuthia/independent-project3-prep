@@ -33,23 +33,33 @@ body {
   display: none;
 }
 
+
 /* portfolio */
-
-
-.fadeIn {
-  display: none;
-  position: absolute;
+/* TODO-overlay */
+.fadeIn-overlay {
+  display: none;  
   top: 5%;
-  margin-left: 8%;
-  padding: 25% 15%;
+  margin-left: 3%;
+  padding: 25% 10%;
+  background:rgba(0,0,0,0.5);
   color: white;
   font-weight: bold;
   border: 3px solid white;
 }
 
-.bottom{
-  position:absolute;
+
+/* .overlay {
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
 }
+.overlay:hover {
+  opacity: 1 !important;
+} */
+
+/* .bottom{
+  position:absolute;
+} */
 
 /* contacts section */
 .contactUs {
@@ -72,10 +82,4 @@ body {
   padding: 10% 28%;
 }
 
-/*  */
-.topDiv {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-}
+
