@@ -31,3 +31,11 @@ $(document).ready(function(){
     $("#mng-hidden").toggle();
   })
 })
+
+// tohover over portforlio
+
+$(document).ready(function(){
+  $(".hover").hover(function(){
+    $(".fade").fadeIn();
+  })
+})

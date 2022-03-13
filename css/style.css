@@ -10,14 +10,14 @@ body{
   height: 50vh
 }
 .hero{
-  background-image: url(../assets/hero.jpg);
+  background-image: url(/assets/backgrounds/hero.jpg);
   
 }
 .services{
-  background-image: url(../assets/laptop.jpg);
+  background-image: url(/assets/backgrounds/laptop.jpg);
 }
 .contactUs{
-  background-image: url(../assets/tool.jpg);
+  background-image: url(/assets/backgrounds/tool.jpg);
 }
 #design-hidden, #dev-hidden, #mng-hidden{
   display: none;
