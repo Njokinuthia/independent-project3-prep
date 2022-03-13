@@ -22,6 +22,9 @@ body {
 .services {
   background-image: url(/assets/backgrounds/laptop.jpg);
   height: 50vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content:end;
 }
 .contactUs {
   background-image: url(/assets/backgrounds/tool.jpg);
