@@ -16,6 +16,6 @@
 .contactUs{
   background-image: url(../assets/tool.jpg);
 }
-/* .hidden{
+#design-hidden, #dev-hidden, #mng-hidden{
   display: none;
-} */
+}
