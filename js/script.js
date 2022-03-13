@@ -3,7 +3,7 @@
 //  body.style.backgroundColor ="red";
 
 
-// what we do toggle UI CODE toggle
+// what we do -  UI CODE toggle
 // TODO:CLEAN UP - DRY
 $(document).ready(function () {
   $("#design-show").click(function () {
@@ -35,31 +35,29 @@ $(document).ready(function () {
 // tohover over portforlio
 // TODO:take back the fadeout
 // TODO:individual pics
-$(document).ready(function (){
-  $(".fadeout").hover(function () {       
-    $(".fadein-overlay").toggle();   
+$(document).ready(function () {
+  $(".fadeout").hover(function () {
+    $(".fadein-overlay").toggle();
   });
 });
 
 
 // pop up message
-// $(document).ready(function(){
-//   $("#feedback").submit(function(event){
-//     let name = $("#name").val();
-//     alert("works fine");
-//   });
-// });
+$(document).ready(function () {
+  $("#feedback").submit(function (event) {
+    let name = $("#name").val();
+    alert(`${name} we have received your message. Thank you for reaching out to us.`);
+  });
+});
 
-$(document).ready(function() {
-  $('input').keyup(function(event) {
-      if (event.which === "enter")
-      {
-          event.preventDefault();
-          $("#feedback").submit(function(event){
-            let name = $("#name").val();
-            alert("works fine");
-          });
-          
-      }
+$(document).ready(function () {
+  $('input').keyup(function (event) {
+    if (event.which === "enter") {
+      $("#feedback").submit(function (event) {
+        event.preventDefault();
+        let name = $("#name").val();
+    alert(`${name} we have received your message. Thank you for reaching out to us.`);        
+      });
+    }
   });
 });
