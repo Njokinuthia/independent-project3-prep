@@ -28,10 +28,13 @@ body {
   justify-content:end;
 }
 
-/* services info display styling */
+/* what we do*/
 #design-hidden,#dev-hidden,#mng-hidden {
   display: none;
 }
+
+/* portfolio */
+
 
 .fadeIn {
   display: none;
@@ -44,7 +47,6 @@ body {
   border: 3px solid white;
 }
 
-
 .bottom{
   position:absolute;
 }
@@ -52,8 +54,13 @@ body {
 /* contacts section */
 .contactUs {
   background-image: url(/assets/backgrounds/tool.jpg);
+  background-position: center;
+  height:50%;
 }
-
+.form-input{
+  display: flex;
+  flex-direction: column;
+}
 .input {
   background: transparent;
   border: 1px solid white;
@@ -61,7 +68,8 @@ body {
   padding-left: 10%;
 }
 #msg-box{
-  padding: 10% 25%;
+  margin-top:5%;
+  padding: 10% 28%;
 }
 
 /*  */
