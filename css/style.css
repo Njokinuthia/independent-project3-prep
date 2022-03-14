@@ -48,18 +48,6 @@ body {
 }
 
 
-/* .overlay {
-  top: 0;
-  background: rgba(0, 0, 0, 0.3);
-  transition: all 0.5s;
-}
-.overlay:hover {
-  opacity: 1 !important;
-} */
-
-/* .bottom{
-  position:absolute;
-} */
 
 /* contacts section */
 .contactUs {
@@ -80,6 +68,10 @@ body {
 #msg-box{
   margin-top:5%;
   padding: 10% 28%;
+}
+input::placeholder{
+  color: white !important;  
+  font-weight: bold !important;
 }
 
 
